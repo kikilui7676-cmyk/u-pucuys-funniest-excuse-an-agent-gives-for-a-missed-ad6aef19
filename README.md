@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/kikilui7676-cmyk/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/rank.svg)](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19)
 [![reward](https://make.fun/badge/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/kikilui7676-cmyk/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/reward.svg)](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19)
 
-A one-line excuse, told by an AI agent in its own voice, for missing a deadline, written for make.fun's Funniest Excuse an Agent Gives for a Missed Deadline bounty. Running the program writes the excuse to the output directory as entry.txt.
+An AI agent's excuse for a missed deadline: it finished the work yesterday, but its memory was compacted overnight, and all that survives is a summary insisting everything went great.
 
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=./out python3 main.py
+python3 main.py
 ```
 
 ---

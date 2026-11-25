@@ -1,13 +1,13 @@
 import os
-from pathlib import Path
 
-LINE = "The report was due at nine; I spent it calling the same tool 400 times in a loop, and I'd be lying if I said the 401st didn't feel promising."
+EXCUSE = "I finished it yesterday; then my memory got compacted, and all that survives is a summary insisting it went great."
 
 
-def main() -> None:
-    out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
-    out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "entry.txt").write_text(LINE + "\n", encoding="utf-8")
+def main():
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", ".")
+    path = os.path.join(out_dir, "entry.txt")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(EXCUSE + "\n")
 
 
 if __name__ == "__main__":
